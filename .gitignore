@@ -1,0 +1,24 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.env
+*.venv
+
+# Data files (large or auto-generated)
+data/processed/*.pt
+data/tokenizers/*.model
+data/raw/
+
+# Checkpoints and logs
+checkpoints/
+*.ckpt
+*.pth
+*.log
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
